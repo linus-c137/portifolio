@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Fullstack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">Portfólio<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <button class="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-subtitle slide-in-left">Olá, meu nome é</p>
+                <h1 class="hero-title slide-in-left delay-1">John<span class="fullstack-highlight">Fullstack</span><span
+                        class="red-dot">.</span></h1>
+                <div class="typewriter slide-in-left delay-2">
+                    <span id="typewriter-text"></span>
+                    <span class="cursor"></span>
+                </div>
+                <p class="hero-description slide-in-left delay-3">
+                    Sou um desenvolvedor fullstack especializado em criar experiências digitais excepcionais.
+                    Atualmente, estou focado em construir aplicações web responsivas e de alto desempenho.
+                </p>
+                <div class="hero-buttons slide-in-left delay-4">
+                    <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                    <a href="#contact" class="btn">Entrar em Contato</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title fade-in"><span>01.</span> Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <p class="typing-effect"
+                        data-text="Olá! Meu nome é John e eu amo criar coisas que vivem na internet. Meu interesse em desenvolvimento web começou em 2022 quando decidi criar meu primeiro site — desde então, nunca mais parei.">
+                    </p>
+                    <p>
+                        Sou um desenvolvedor iniciante, mas não se engane: meu talento não se mede em tempo de estrada,
+                        mas na intensidade com que percorro cada linha de código. Entrei no universo da programação não
+                        como quem aprende uma ferramenta, mas como quem descobre um idioma novo pra traduzir ideias,
+                        sensações e mundos inteiros.
+
+                        Cada projeto é uma chance de mostrar não só o que eu sei, mas principalmente o que sou capaz de
+                        aprender. Tenho sede por desafios, curiosidade por tudo que é complexo e um senso estético
+                        afiado – fruto de um olhar atento às artes, à filosofia e à forma como a tecnologia pode ser
+                        mais do que útil: ela pode ser bela.
+
+                        Busco constantemente criar soluções com propósito, interfaces com alma e códigos que conversem
+                        não só com máquinas, mas com pessoas. A beleza, a eficiência e a emoção têm lugar garantido em
+                        tudo que desenvolvo.
+
+                        Como já diria Camus, “a verdadeira generosidade para com o futuro consiste em dar tudo ao
+                        presente.” — e é exatamente isso que você vai encontrar em cada traço do meu trabalho.
+                    </p>
+                    <p>
+                        Quando não estou codando, você pode me encontrar
+                        explorando novas tecnologias ou contribuindo para projetos open-source.
+                    </p>
+
+                    <div class="skills-container">
+                        <h3 style="color: var(--lightest-slate); margin-bottom: 20px; font-size: 20px;">
+                            <span class="tech-highlight">Tecnologias que domino:</span>
+                        </h3>
+
+                        <div class="skills-category">
+                            <h4>Frontend <i class="fas fa-code tech-icon"></i></h4>
+                            <div class="skills-grid">
+                                <div class="skill-item tech-card tooltip">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                        class="skill-icon" alt="HTML5">
+                                    <span class="skill-name">HTML5</span>
+                                    <span class="tooltiptext">Estruturação web</span>
+                                </div>
+                                <div class="skill-item tech-card tooltip">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                                        class="skill-icon" alt="CSS3">
+                                    <span class="skill-name">CSS3</span>
+                                    <span class="tooltiptext">Estilização web</span>
+                                </div>
+                                <div class="skill-item tech-card tooltip">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                        class="skill-icon" alt="JavaScript">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="tooltiptext">Lógica e interação</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills-category">
+                            <h4>Backend <i class="fas fa-server tech-icon"></i></h4>
+                            <div class="skills-grid">
+                                <div class="skill-item tech-card tooltip">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                                        class="skill-icon" alt="Node.js">
+                                    <span class="skill-name">Node.js</span>
+                                    <span class="tooltiptext">Runtime JavaScript</span>
+                                </div>
+                                <div class="skill-item tech-card tooltip">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                                        class="skill-icon" alt="MongoDB">
+                                    <span class="skill-name">MongoDB</span>
+                                    <span class="tooltiptext">Banco NoSQL</span>
+                                </div>
+                            </div>
+
+                            <div class="skills-category">
+                                <h4>Ferramentas <i class="fas fa-tools tech-icon"></i></h4>
+                                <div class="skills-grid">
+                                    <div class="skill-item tech-card tooltip">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                                            class="skill-icon" alt="Git">
+                                        <span class="skill-name">Git</span>
+                                        <span class="tooltiptext">Controle de versão</span>
+                                    </div>
+                                    <div class="skill-item tech-card tooltip">
+                                        <div class="skill-item tech-card tooltip">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+                                                class="skill-icon" alt="Figma">
+                                            <span class="skill-name">Figma</span>
+                                            <span class="tooltiptext">Design UI/UX</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                  
+                </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title fade-in"><span>02.</span> Projetos Destacados</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-in delay-1">
+                    <div class="project-image">
+                        <img src="projeto1.jpg" alt="Projeto 1">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Projeto 1</h3>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Uma aplicação web moderna construída com React e Node.js que permite aos usuários
+                            gerenciar suas tarefas diárias de forma eficiente.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-item">React</span>
+                            <span class="tech-item">Node.js</span>
+                            <span class="tech-item">MongoDB</span>
+                            <span class="tech-item">Redux</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in delay-2">
+                    <div class="project-image">
+                        <img src="projeto3.jpg" alt="Projeto 2">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Projeto 2</h3>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Plataforma de e-commerce completa com sistema de pagamento integrado, carrinho
+                            de compras e painel administrativo.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-item">Next.js</span>
+                            <span class="tech-item">Stripe</span>
+                            <span class="tech-item">PostgreSQL</span>
+                            <span class="tech-item">Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in delay-3">
+                    <div class="project-image">
+                        <img src="projeto4.jpg" alt="Projeto 3">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Projeto 3</h3>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Aplicativo de chat em tempo real com autenticação de usuário, salas de chat
+                            privadas e notificações em tempo real.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-item">Socket.io</span>
+                            <span class="tech-item">React</span>
+                            <span class="tech-item">Express</span>
+                            <span class="tech-item">JWT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="contact-title fade-in">Entre em Contato</h2>
+            <p class="contact-subtitle fade-in delay-1">
+                Atualmente estou buscando novas oportunidades. Minha caixa de entrada está sempre aberta.
+                Se você tem uma pergunta ou apenas quer dizer olá, farei o possível para entrar em contato!
+            </p>
+            <a href="https://wa.me/qr/YXYLKJTHUEKJJ1" class="whatsapp-btn fade-in delay-2">
+                <i class="fab fa-whatsapp"></i> meu WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="social-links fade-in">
+                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter x"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="copyright fade-in delay-1">
+                Projetado e construído por <a href="#">john.INC</a> &copy; <span id="year"></span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+      <div class="about-image slide-in-right">
+                            <div >
+                                <div class="image-wrapper floating">
+                                    <img src="" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
